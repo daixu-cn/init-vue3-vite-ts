@@ -1,0 +1,11 @@
+//清除浮动
+.clearfix {
+  zoom: 1;
+  &::after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+  }
+}

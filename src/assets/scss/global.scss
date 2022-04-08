@@ -1,0 +1,10 @@
+@import "normalize";
+@import "var";
+@import "mixins";
+@import "class";
+@import "ElementPlus";
+
+html {
+  color: $main-font-color;
+  font-family: $main-font-family;
+}
